@@ -36,6 +36,7 @@ The "Column1" field contained vehicle information that needed to be split into t
 = Table.SplitColumn(#"Changed Type", "Column1", Splitter.SplitTextByEachDelimiter({"#"}, QuoteStyle.Csv, true), {"Column1.1", "Column1.2"})
 ```   
 **Screenshot:**
+
 ![SplittingColumn](https://github.com/umidmirzaev/logistics-operations/blob/main/Step1%20-%20Splitting%20Column.png)
 
 
