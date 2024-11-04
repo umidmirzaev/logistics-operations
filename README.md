@@ -58,3 +58,6 @@ To calculate the duration in a structured format, a custom column was created th
 ```M
 = Table.AddColumn(#"Filtered Rows", "Duration", each #duration(0, Time.Hour([#"Planned duration, h."]), Time.Minute([#"Planned duration, h."]), Time.Second([#"Planned duration, h."])))
 ```  
+**Screenshot:**
+
+![CustomColumn](https://github.com/umidmirzaev/logistics-operations/blob/main/Step6%20-%20Custom%20Column%20-%20Duration.png)
