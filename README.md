@@ -1,22 +1,22 @@
 ## Power Query Transformation: Logistics Operations Data
 
-This project demonstrates the use of Power Query to transform and prepare logistics operations data. The main task was to load raw data into Power BI and create a clear, structured table for analysis. The requirements, initially provided in Russian, specified the following:
+This project demonstrates the use of Power Query to transform and prepare logistics operations data. The main task was to load raw data into Power BI and create a clear, structured table for analysis. The requirements specified the following:
 
 ### Task Requirements:
 1. Load the data into Power BI and create a table with the following fields:
-   - **Vehicle Number** (Номер авто)
-   - **Task** (Работа)
-   - **Starting Point** (Точка начала)
-   - **End Point** (Точка окончания)
-   - **Start Date (Planned)** (Дата начала (план))
-   - **End Date (Planned)** (Дата окончания (план))
-   - **Duration** (Длительность)
-   - **Driver** (Водитель)
-   - **Trip** (Рейс)
-   - **Shift** (Смена)
-   - **Carrier** (Перевозчик)
+   - **Vehicle Number**  
+   - **Task** 
+   - **Starting Point**  
+   - **End Point**  
+   - **Start Date (Planned)**   
+   - **End Date (Planned)**   
+   - **Duration**   
+   - **Driver**   
+   - **Trip**   
+   - **Shift**   
+   - **Carrier**   
 
-   The table should include only the tasks that were not marked as "Cancelled" (не «Отменены»).
+   The table should include only the tasks that were not marked as "Cancelled".
 
 2. Create a new table that displays the total duration for each trip.
 
