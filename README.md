@@ -2,6 +2,11 @@
 
 This project demonstrates the use of Power Query to transform and prepare logistics operations data. The main task was to load raw data into Power BI and create a clear, structured table for analysis. The requirements specified the following:
 
+### The file overview:
+**Screenshot:**
+
+![DatasetExcel](https://github.com/umidmirzaev/logistics-operations/blob/main/Dataset%20Overview.png)
+
 ### Task Requirements:
 1. Load the data into Power BI and create a table with the following fields:
    - **Vehicle Number**  
