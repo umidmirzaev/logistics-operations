@@ -35,6 +35,9 @@ The "Column1" field contained vehicle information that needed to be split into t
 ```M
 = Table.SplitColumn(#"Changed Type", "Column1", Splitter.SplitTextByEachDelimiter({"#"}, QuoteStyle.Csv, true), {"Column1.1", "Column1.2"})
 ```   
+**Screenshot:**
+![SplittingColumn](https://github.com/umidmirzaev/logistics-operations/blob/main/Step1%20-%20Splitting%20Column.png)
+
 
 #### Adding a Conditional Column for Planned End Date
 A new column, "End date (plan)," was created to populate the start date if the "Status" column was blank. This conditional column allowed for handling missing end dates based on the task's status.
