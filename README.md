@@ -38,6 +38,7 @@ The "Column1" field contained vehicle information that needed to be split into t
 
 #### Adding a Conditional Column for Planned End Date
 A new column, "End date (plan)," was created to populate the start date if the "Status" column was blank. This conditional column allowed for handling missing end dates based on the task's status.
+
 **M Code:**
 ```M
 = Table.AddColumn(#"Removed Columns", "End date (plan)", each if [Status] = null then [#"Start date (plan)"] else null)
