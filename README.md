@@ -7,6 +7,11 @@ This project demonstrates the use of Power Query to transform and prepare logist
 
 ![DatasetExcel](https://github.com/umidmirzaev/logistics-operations/blob/main/Dataset%20Overview.png)
 
+
+**Screenshot:**
+
+![DatasetPowerBI](https://github.com/umidmirzaev/logistics-operations/blob/main/Dataset%20Overview%20in%20PowerBI.png)
+
 ### Task Requirements:
 1. Load the data into Power BI and create a table with the following fields:
    - **Vehicle Number**  
