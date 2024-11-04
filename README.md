@@ -25,16 +25,12 @@ Using Power Query, the data was transformed as follows:
 - Filtered out tasks with a "Cancelled" status to include only completed or ongoing tasks.
 - Structured the table according to the specified fields for a clear and easy-to-analyze format.
 - Created a second table summarizing the total duration of each trip using grouping and aggregation functions.
+  
+Additionally, several key transformations were applied to achieve the final structure:
 
-### Screenshots:
+#### Splitting Column by Delimiter
+The "Column1" field contained vehicle information that needed to be split into two separate fields for clarity. The column was split using the `#` delimiter.
 
-**Raw Data Transformation (Before):**
-![Dataset Overview](path-to-your-dataset-overview-image)
-
-**Transformed Table (After):**
-![Final Table 1](path-to-your-final-table-1-image)
-
-**Summary Table of Total Duration per Trip:**
-![Final Table 2](path-to-your-final-table-2-image)
-
-These steps showcase the use of Power Query to filter, structure, and aggregate logistics data, resulting in a dataset ready for further analysis.
+**M Code:**
+```M
+= Table.SplitColumn(#"Changed Type", "Column1", Splitter.SplitTextByEachDelimiter({"#"}, QuoteStyle.Csv, true), {"Column1.1", "Column1.2"})
