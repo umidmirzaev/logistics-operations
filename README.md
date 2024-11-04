@@ -47,6 +47,9 @@ A new column, "End date (plan)," was created to populate the start date if the "
 ```M
 = Table.AddColumn(#"Removed Columns", "End date (plan)", each if [Status] = null then [#"Start date (plan)"] else null)
 ```  
+**Screenshot:**
+
+![ConditionalColumn](https://github.com/umidmirzaev/logistics-operations/blob/main/Step3%20-%20Conditional%20Column%20-%20End%20Date.png)
 
 #### Adding a Custom Column for Duration
 To calculate the duration in a structured format, a custom column was created that converts the planned duration time into hours, minutes, and seconds.
