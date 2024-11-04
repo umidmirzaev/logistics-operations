@@ -3,12 +3,12 @@
 This project demonstrates the use of Power Query to transform and prepare logistics operations data. The main task was to load raw data into Power BI and create a clear, structured table for analysis. The requirements specified the following:
 
 ### The file overview:
-**Screenshot:**
+**Dataset Overview - Excel:**
 
 ![DatasetExcel](https://github.com/umidmirzaev/logistics-operations/blob/main/Dataset%20Overview.png)
 
 
-**Screenshot:**
+**Dataset Overview - PowerBI:**
 
 ![DatasetPowerBI](https://github.com/umidmirzaev/logistics-operations/blob/main/Dataset%20Overview%20in%20PowerBI.png)
 
@@ -74,11 +74,11 @@ To calculate the duration in a structured format, a custom column was created th
 
 
 ### The final result:
-**Screenshot:**
+**Dataset Overview - Table 1:**
 
 ![Table1](https://github.com/umidmirzaev/logistics-operations/blob/main/Final%20Table%201.png)
 
 
-**Screenshot:**
+**Dataset Overview - Table 2:**
 
 ![Table2](https://github.com/umidmirzaev/logistics-operations/blob/main/Final%20Table%202.png)
