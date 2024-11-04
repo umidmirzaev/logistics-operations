@@ -71,3 +71,14 @@ To calculate the duration in a structured format, a custom column was created th
 **Screenshot:**
 
 ![CustomColumn](https://github.com/umidmirzaev/logistics-operations/blob/main/Step6%20-%20Custom%20Column%20-%20Duration.png)
+
+
+### The final result:
+**Screenshot:**
+
+![Table1](https://github.com/umidmirzaev/logistics-operations/blob/main/Final%20Table%201.png)
+
+
+**Screenshot:**
+
+![Table2](https://github.com/umidmirzaev/logistics-operations/blob/main/Final%20Table%202.png)
